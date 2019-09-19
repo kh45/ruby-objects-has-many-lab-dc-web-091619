@@ -6,7 +6,7 @@ class Artist
   end
   
   def songs
-    Song.all.select{each |song|
+    Song.all.select{song|
       song if song.artist_name == self}
   end
 end
