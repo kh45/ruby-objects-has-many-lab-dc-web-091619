@@ -17,7 +17,7 @@ class Song
     if !self.artist
       NIL
     else
-      self.artist_name
+      self.artist.name
     end
   end
   
