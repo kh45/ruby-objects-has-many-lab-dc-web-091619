@@ -7,5 +7,6 @@ class Author
   end
   
   def posts
-    Posts.
+    Post.all
+  end
 end
